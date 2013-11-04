@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Subject:</strong>
+  <%= @todo.subject %>
+</p>
+
+<p>
+  <strong>Detail:</strong>
+  <%= @todo.detail %>
+</p>
+
+<p>
+  <strong>Estimate:</strong>
+  <%= @todo.estimate %>
+</p>
+
+<p>
+  <strong>Start on:</strong>
+  <%= @todo.start_on %>
+</p>
+
+<p>
+  <strong>End on:</strong>
+  <%= @todo.end_on %>
+</p>
+
+<%= link_to 'Edit', edit_todo_path(@todo) %> |
+<%= link_to 'Back', todos_path %>
