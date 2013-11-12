@@ -46,3 +46,5 @@ end
 gem 'execjs'
 gem 'therubyracer'
 gem 'sqlite3-ruby'
+gem 'simplecov', '~> 0.7.1'
+gem "simplecov-rcov", "~> 0.2.3"
